@@ -1,0 +1,71 @@
+.PhotoGraphySkils{
+    width: 100%;
+    height: 100vh;
+   background-image: url("../../assets//images/skiilsbackgroundimage1.jpg");
+   background-position: 50% 50%;
+   background-attachment: local;
+   position: relative;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.PhotoGraphySkils::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+.PhotoGraphySkils_content{
+width: 50%;
+}
+.PhotoGraphySkils_imge{
+width: 45%;
+margin-left: 5rem;
+height: 100%;
+display: flex;
+align-items: center;
+z-index: 1;
+}
+.PhotoGraphySkils_imge img{
+ 
+width: 90%;
+
+height: 80vh;
+}
+.PhotoGraphySkils_first_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+    margin-left: 1rem;
+ 
+}
+
+.PhotoGraphySkils_first_container .PhotoGraphySkils_first_title{
+    color: white;
+    z-index: 1;
+    font-size: 2.6rem;
+  padding: 1rem 0rem;
+}
+.PhotoGraphySkils_first_container .PhotoGraphySkils_first_desc{
+    color: white;
+    z-index: 1;
+    padding: 0.5rem 0rem;
+
+    word-spacing: 2px;
+    font-size: 1rem;
+    
+}
+.PhotoGraphySkils_level_main_container{
+    
+}
+.PhotoGraphySkils_level_main_container .p1 p{
+    color: white;
+}

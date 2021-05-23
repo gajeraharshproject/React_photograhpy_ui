@@ -6,6 +6,7 @@ import { Button } from '@material-ui/core'
 
 import Headercardsection from '../Components/Headercardsection/Headercardsection';
 import EventSection from '../Components/Eventsection./EventSection';
+import PhotoGraphySkils from '../Components/PhotoGraphySkils/PhotoGraphySkils';
 function Home() {
 
     const [buttonhandler, setbuttonhandelr] = useState(false);
@@ -52,6 +53,7 @@ function Home() {
 
             </section>
             <EventSection />
+            <PhotoGraphySkils />
         </>
     )
 }
