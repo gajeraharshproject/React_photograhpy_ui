@@ -1,0 +1,76 @@
+
+ body{
+    font-family: 'DM Sans', sans-serif;
+ }
+.Main_BAckground{
+    width: 100%;
+    height: 155vh;
+    background-color: black;
+    background-image: url("../assets//images//mbr.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment :local;
+ 
+}
+
+.Main_background_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+opacity: 0.6;
+    background-color: rgb(0,0,0);
+  z-index: 0;
+}
+
+.Main_Header_container{
+   z-index: 1;
+   width: 100%;
+    color: white;
+    position: absolute;
+}
+
+.navbar0verider{
+    position: absolute;
+     top: 12rem;
+     width: 100%;
+}
+
+.Min_Heading_conatant_div{
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_heading_sub{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.main_heading_content h1{
+    font-size: 4rem;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+.MAIN_TEXT_HEADING_CONATEIN p{
+    color: white;
+    letter-spacing: 1px;
+    text-indent: 12px;
+    white-space:pre-line;
+    text-align: center;
+    word-spacing: 2px;
+}
+.cards_main_div{
+    width: 100%;
+display: flex;
+ justify-content: space-around;
+}
